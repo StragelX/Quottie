@@ -851,6 +851,7 @@ body.no_scroll {
 }
 
 .dwnld {
+  width: fit-content;
   color: #000;
   font-size: 16px;
   font-family: "Inter - Medium";
@@ -1159,6 +1160,12 @@ h2 {
 .interesed h2 {
   padding-top: 170px;
   margin-bottom: 32px;
+}
+
+@media all and (max-width: 1025px) {
+  .interesed h2 {
+    padding-top: 32px;
+  }
 }
 
 .interesed .text {

@@ -34,6 +34,7 @@ body {
 }
 
 .dwnld {
+  width: fit-content;
   color: #000;
   font-size: 16px;
   font-family: "Inter - Medium";
@@ -332,6 +333,10 @@ h2 {
   h2 {
     padding-top: 170px;
     margin-bottom: 32px;
+
+    @media all and (max-width: 1025px) {
+      padding-top: 32px;
+    }
   }
 
   .text {
