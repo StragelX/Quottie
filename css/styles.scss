@@ -217,7 +217,7 @@ footer {
   h1 {
     font-size: 64px;
     line-height: 96px;
-    margin-bottom: 56px;
+    margin-bottom: 32px;
     margin-top: 140px;
     font-weight: 400;
   }
@@ -260,6 +260,7 @@ h2 {
     line-height: 24px;
     font-size: 16px;
     margin-bottom: 100px;
+    padding-left: 40px;
   }
 }
 
@@ -329,8 +330,8 @@ h2 {
   padding-top: 96px;
 
   h2 {
-    padding-top: 80px;
-    margin-bottom: 46px;
+    padding-top: 170px;
+    margin-bottom: 32px;
   }
 
   .text {
@@ -341,6 +342,7 @@ h2 {
 }
 
 .benefits {
+  width: 90%;
   display: grid;
   grid-gap: 32px;
   grid-template-columns: 1fr 1fr;
@@ -354,7 +356,6 @@ h2 {
   p {
     font-size: 16px;
     line-height: 24px;
-    width: 80%;
   }
 }
 
@@ -370,7 +371,7 @@ h3 {
   font-style: normal;
   letter-spacing: normal;
   line-height: 96px;
-  margin-bottom: 84px;
+  margin-bottom: 64px;
 }
 
 .bottom {
