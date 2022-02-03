@@ -240,7 +240,7 @@ a h6 {
   margin-right: -8px;
 }
 
-[class*="col-"] {
+[class*="col_"] {
   flex: none;
   min-height: 1px;
   flex-grow: 0;
@@ -340,6 +340,10 @@ a h6 {
     max-width: 100%;
   }
   .col_s {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 0;
+    max-width: 100%;
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
@@ -464,6 +468,10 @@ a h6 {
     max-width: 100%;
   }
   .col_m {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 0;
+    max-width: 100%;
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
@@ -588,6 +596,10 @@ a h6 {
     max-width: 100%;
   }
   .col_l {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 0;
+    max-width: 100%;
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
@@ -712,6 +724,10 @@ a h6 {
     max-width: 100%;
   }
   .col_xl {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 0;
+    max-width: 100%;
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
@@ -856,7 +872,7 @@ body.no_scroll {
   font-size: 16px;
   font-family: "Inter - Medium";
   line-height: 24px;
-  padding: 12px 20px;
+  padding: 12px 16px;
   border-radius: 8px;
   background-color: #fed778;
   box-shadow: 0 16px 16px rgba(254, 215, 120, 0.16);
@@ -1056,7 +1072,7 @@ footer .terms + .terms {
 }
 
 .main_top .main_slogan {
-  margin-bottom: 64px;
+  margin-bottom: 74px;
   max-width: 522px;
   font-size: 24px;
   line-height: 32px;
@@ -1092,12 +1108,12 @@ h2 {
 .customize .text {
   line-height: 24px;
   font-size: 16px;
-  margin-bottom: 100px;
+  margin-bottom: 96px;
   padding-left: 40px;
 }
 
 .rounds_grid {
-  margin-bottom: 98px;
+  margin-bottom: 95.5px;
   display: grid;
   grid-gap: 32px;
   grid-template-areas: "a a b b b b" "a a b b b b" "c . b b b b" ". d b b b b";
@@ -1114,6 +1130,8 @@ h2 {
 
 .rounds_grid .big {
   grid-area: b;
+  height: 750px;
+  width: 750px;
 }
 
 .rounds_grid .small_1 {
@@ -1125,7 +1143,7 @@ h2 {
 }
 
 .motivation h2 {
-  margin-bottom: 100px;
+  margin-bottom: 96px;
 }
 
 .motivation .feedback_desctop {
@@ -1158,14 +1176,7 @@ h2 {
 }
 
 .interesed h2 {
-  padding-top: 170px;
   margin-bottom: 32px;
-}
-
-@media all and (max-width: 1025px) {
-  .interesed h2 {
-    padding-top: 32px;
-  }
 }
 
 .interesed .text {
@@ -1175,10 +1186,9 @@ h2 {
 }
 
 .benefits {
-  width: 90%;
   display: grid;
-  grid-gap: 32px;
-  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  grid-template-columns: repeat(2, minmax(100px, 245px));
 }
 
 .benefits img {
@@ -1342,5 +1352,21 @@ h3 {
 .terms_wrap li p {
   display: contents;
   margin-bottom: 0;
+}
+
+.w522 {
+  max-width: 522px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w358 {
+  max-width: 358px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align_center {
+  align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */
