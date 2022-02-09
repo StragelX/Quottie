@@ -1187,9 +1187,16 @@ footer .terms + .terms {
 }
 
 .marquee p {
+  width: fit-content;
   display: flex;
   grid-gap: 32px;
-  animation: marquee 20s linear infinite;
+  animation: marquee 90s linear infinite;
+}
+
+@media all and (max-width: 767px) {
+  .marquee p {
+    animation: marquee 70s linear infinite;
+  }
 }
 
 @media all and (max-width: 767px) {
