@@ -360,6 +360,12 @@ h2 {
       padding-left: 0;
     }
   }
+
+  h2 {
+    @media all and (max-width: 767px) {
+      margin-bottom: 16px;
+    }
+  }
 }
 
 .rounds_grid {
