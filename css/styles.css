@@ -1244,6 +1244,12 @@ h2 {
   }
 }
 
+@media all and (max-width: 767px) {
+  .customize .text {
+    margin-bottom: 64px;
+  }
+}
+
 @media all and (max-width: 1000px) {
   .customize h2 {
     margin-bottom: 96px;
@@ -1359,6 +1365,12 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 64px;
+}
+
+@media all and (max-width: 767px) {
+  .interesed .text {
+    margin-bottom: 32px;
+  }
 }
 
 .benefits {
