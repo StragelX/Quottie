@@ -57,8 +57,8 @@ body {
   margin-right: auto;
 
   @media all and (max-width: 1150px) {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
@@ -209,12 +209,25 @@ footer {
 .phone {
   display: block;
 
+  @media all and (max-width: 1000px) {
+    margin-bottom: 96px;
+    margin-top: 96px;
+  }
+
   &.left {
     margin-right: auto;
+
+    @media all and (max-width: 1000px) {
+      margin-left: auto;
+    }
   }
 
   &.right {
     margin-left: auto;
+
+    @media all and (max-width: 1000px) {
+      margin-right: auto;
+    }
   }
 }
 
@@ -235,6 +248,10 @@ footer {
     max-width: 522px;
     font-size: 24px;
     line-height: 32px;
+
+    @media all and (max-width: 1000px) {
+      max-width: 1000px;
+    }
   }
 
   .phone {
@@ -269,6 +286,10 @@ h2 {
     font-size: 16px;
     margin-bottom: 96px;
     padding-left: 40px;
+
+    @media all and (max-width: 1000px) {
+      padding-left: 0;
+    }
   }
 }
 
@@ -295,6 +316,11 @@ h2 {
     grid-area: b;
     height: 750px;
     width: 750px;
+
+    @media all and (max-width: 1000px) {
+      width: auto;
+      height: auto;
+    }
   }
 
   .small_1 {
@@ -354,6 +380,10 @@ h2 {
   display: grid;
   grid-gap: 16px;
   grid-template-columns: repeat(2, minmax(100px, 245px));
+
+  @media all and (max-width: 1000px) {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
 
   img {
     width: 24px;
@@ -504,6 +534,10 @@ h3 {
 .w522 {
   max-width: 522px;
 
+  @media all and (max-width: 1000px) {
+    max-width: 100%;
+  }
+
   &.left {
     margin-right: auto;
   }
@@ -521,4 +555,12 @@ h3 {
 
 .align_center {
   align-items: center;
+
+  .mob_order_1 {
+    order: 1;
+  }
+
+  .mob_order_2 {
+    order: 2;
+  }
 }

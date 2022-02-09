@@ -892,8 +892,8 @@ body.no_scroll {
 
 @media all and (max-width: 1150px) {
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
@@ -1057,12 +1057,31 @@ footer .terms + .terms {
   display: block;
 }
 
+@media all and (max-width: 1000px) {
+  .phone {
+    margin-bottom: 96px;
+    margin-top: 96px;
+  }
+}
+
 .phone.left {
   margin-right: auto;
 }
 
+@media all and (max-width: 1000px) {
+  .phone.left {
+    margin-left: auto;
+  }
+}
+
 .phone.right {
   margin-left: auto;
+}
+
+@media all and (max-width: 1000px) {
+  .phone.right {
+    margin-right: auto;
+  }
 }
 
 .main_top {
@@ -1083,6 +1102,12 @@ footer .terms + .terms {
   max-width: 522px;
   font-size: 24px;
   line-height: 32px;
+}
+
+@media all and (max-width: 1000px) {
+  .main_top .main_slogan {
+    max-width: 1000px;
+  }
 }
 
 .main_top .phone {
@@ -1119,6 +1144,12 @@ h2 {
   padding-left: 40px;
 }
 
+@media all and (max-width: 1000px) {
+  .customize .text {
+    padding-left: 0;
+  }
+}
+
 .rounds_grid {
   margin-bottom: 96px;
   display: grid;
@@ -1139,6 +1170,13 @@ h2 {
   grid-area: b;
   height: 750px;
   width: 750px;
+}
+
+@media all and (max-width: 1000px) {
+  .rounds_grid .big {
+    width: auto;
+    height: auto;
+  }
 }
 
 .rounds_grid .small_1 {
@@ -1196,6 +1234,12 @@ h2 {
   display: grid;
   grid-gap: 16px;
   grid-template-columns: repeat(2, minmax(100px, 245px));
+}
+
+@media all and (max-width: 1000px) {
+  .benefits {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
 }
 
 .benefits img {
@@ -1365,6 +1409,12 @@ h3 {
   max-width: 522px;
 }
 
+@media all and (max-width: 1000px) {
+  .w522 {
+    max-width: 100%;
+  }
+}
+
 .w522.left {
   margin-right: auto;
 }
@@ -1381,5 +1431,13 @@ h3 {
 
 .align_center {
   align-items: center;
+}
+
+.align_center .mob_order_1 {
+  order: 1;
+}
+
+.align_center .mob_order_2 {
+  order: 2;
 }
 /*# sourceMappingURL=styles.css.map */
