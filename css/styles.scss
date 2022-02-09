@@ -63,6 +63,11 @@ body {
   margin-right: auto;
 
   @media all and (max-width: 1150px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media all and (max-width: 767px) {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -258,6 +263,10 @@ footer {
     margin-top: 140px;
     font-weight: 400;
 
+    @media all and (max-width: 1000px) {
+      margin-top: 96px;
+    }
+
     @media all and (max-width: 767px) {
       font-size: 32px;
       line-height: 48px;
@@ -293,6 +302,7 @@ footer {
 }
 
 .marquee {
+  white-space: nowrap;
   width: 100%;
   overflow: hidden;
   color: #fff;
@@ -304,31 +314,24 @@ footer {
   line-height: 96px;
   background-color: #5138ee;
 
+  p {
+    display: flex;
+    grid-gap: 32px;
+    animation: marquee 20s linear infinite;
+  }
+
   @media all and (max-width: 767px) {
     font-size: 32px;
     line-height: 48px;
   }
 }
 
-.marquee {
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
-.marquee span {
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 50s linear infinite;
-}
-
 @keyframes marquee {
   0% {
-    transform: translate(-30%, 0);
+    transform: translate(0%, 0);
   }
   100% {
-    transform: translate(-80%, 0);
+    transform: translate(-100%, 0);
   }
 }
 
@@ -362,6 +365,10 @@ h2 {
   }
 
   h2 {
+    @media all and (max-width: 1000px) {
+      margin-bottom: 96px;
+    }
+
     @media all and (max-width: 767px) {
       margin-bottom: 16px;
     }
@@ -377,6 +384,10 @@ h2 {
     "a a b b b b"
     "c . b b b b"
     ". d b b b b";
+
+  @media all and (max-width: 1000px) {
+    margin-bottom: 95.43px;
+  }
 
   @media all and (max-width: 767px) {
     grid-gap: 8px;
@@ -450,7 +461,7 @@ h2 {
 .interesed {
   padding-top: 96px;
 
-  @media all and (max-width: 767px) {
+  @media all and (max-width: 1000px) {
     padding-top: 0;
   }
 
@@ -537,12 +548,36 @@ h3 {
   padding-top: 96px;
   padding-bottom: 96px;
 
+  @media all and (max-width: 1000px) {
+    padding-bottom: 64px;
+  }
+
   @media all and (max-width: 767px) {
     padding-top: 64px;
     padding-bottom: 64px;
   }
 
+  .support_link {
+    text-align: center;
+    display: block;
+    margin-bottom: 96px;
+    color: #f8f8f8;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    @media all and (max-width: 767px) {
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+  }
+
   h1 {
+    font-weight: 400;
     text-align: center;
     margin-bottom: 32px;
     color: #f8f8f8;
@@ -593,10 +628,9 @@ h3 {
   h2 {
     color: #f8f8f8;
     font-size: 36px;
-    font-weight: 500;
     line-height: 48px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    margin-block-start: 32px;
+    margin-block-end: 32px;
     text-align: left;
     width: 100%;
     padding-left: 0;
@@ -661,7 +695,7 @@ h3 {
 .align_center {
   align-items: center;
 
-  @media all and (max-width: 767px) {
+  @media all and (max-width: 1000px) {
     .mob_order_1 {
       order: 1;
     }
