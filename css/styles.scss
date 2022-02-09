@@ -44,6 +44,12 @@ body {
   background-color: #fed778;
   box-shadow: 0 16px 16px rgba(254, 215, 120, 0.16);
 
+  @media all and (max-width: 768px) {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
   &::before {
     content: "Download for Free!";
     white-space: nowrap;
@@ -214,6 +220,11 @@ footer {
     margin-top: 96px;
   }
 
+  @media all and (max-width: 767px) {
+    margin-bottom: 64px;
+    margin-top: 64px;
+  }
+
   &.left {
     margin-right: auto;
 
@@ -241,6 +252,12 @@ footer {
     margin-bottom: 32px;
     margin-top: 140px;
     font-weight: 400;
+
+    @media all and (max-width: 767px) {
+      font-size: 32px;
+      line-height: 48px;
+      margin-bottom: 32px;
+    }
   }
 
   .main_slogan {
@@ -252,10 +269,20 @@ footer {
     @media all and (max-width: 1000px) {
       max-width: 1000px;
     }
+
+    @media all and (max-width: 767px) {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 32px;
+    }
   }
 
   .phone {
     margin-top: 96px;
+
+    @media all and (max-width: 767px) {
+      margin-top: 64px;
+    }
   }
 }
 
@@ -270,16 +297,30 @@ footer {
   letter-spacing: normal;
   line-height: 96px;
   background-color: #5138ee;
+
+  @media all and (max-width: 767px) {
+    font-size: 32px;
+    line-height: 48px;
+  }
 }
 
 h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 64px;
+
+  @media all and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .customize {
   padding-top: 96px;
+
+  @media all and (max-width: 767px) {
+    padding-top: 64px;
+  }
 
   .text {
     line-height: 24px;
@@ -335,7 +376,12 @@ h2 {
 .motivation {
   h2 {
     margin-bottom: 96px;
+
+    @media all and (max-width: 767px) {
+      margin-bottom: 32px;
+    }
   }
+
   .feedback_desctop {
     align-items: stretch;
     grid-gap: 32px;
@@ -365,6 +411,10 @@ h2 {
 .interesed {
   padding-top: 96px;
 
+  @media all and (max-width: 767px) {
+    padding-top: 0;
+  }
+
   h2 {
     margin-bottom: 32px;
   }
@@ -383,6 +433,10 @@ h2 {
 
   @media all and (max-width: 1000px) {
     grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
+
+  @media all and (max-width: 767px) {
+    grid-template-columns: 1fr;
   }
 
   img {
@@ -414,12 +468,23 @@ h3 {
   @media all and (max-width: 1000px) {
     text-align: center;
   }
+
+  @media all and (max-width: 767px) {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 32px;
+  }
 }
 
 .bottom {
   padding-top: 96px;
   padding-bottom: 96px;
   background: url("../img/bottom_bg.jpg") no-repeat bottom center / contain;
+
+  @media all and (max-width: 767px) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 
   .dwnld {
     display: block;
