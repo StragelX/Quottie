@@ -112,9 +112,10 @@ header {
   }
 
   .apple {
-    padding: 12px 20px;
+    padding: 12px;
     border-radius: 8px;
     background-color: #000;
+    width: 144px;
 
     &::before {
       content: "";
@@ -207,8 +208,14 @@ footer {
 
 .phone {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+  &.left {
+    margin-right: auto;
+  }
+
+  &.right {
+    margin-left: auto;
+  }
 }
 
 .main_top {
@@ -266,7 +273,7 @@ h2 {
 }
 
 .rounds_grid {
-  margin-bottom: 95.5px;
+  margin-bottom: 96px;
   display: grid;
   grid-gap: 32px;
   grid-template-areas:
@@ -496,8 +503,14 @@ h3 {
 
 .w522 {
   max-width: 522px;
-  margin-left: auto;
-  margin-right: auto;
+
+  &.left {
+    margin-right: auto;
+  }
+
+  &.right {
+    margin-left: auto;
+  }
 }
 
 .w358 {
