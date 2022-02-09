@@ -246,6 +246,11 @@ footer {
   min-height: 715px;
   background: #000 url("../img/top_bg.jpg") no-repeat top center;
 
+  @media all and (max-width: 767px) {
+    min-height: 0;
+    background-size: 170% auto;
+  }
+
   h1 {
     font-size: 64px;
     line-height: 96px;
@@ -257,6 +262,7 @@ footer {
       font-size: 32px;
       line-height: 48px;
       margin-bottom: 32px;
+      margin-top: 64px;
     }
   }
 
@@ -343,6 +349,11 @@ h2 {
     "a a b b b b"
     "c . b b b b"
     ". d b b b b";
+
+  @media all and (max-width: 767px) {
+    grid-gap: 8px;
+    margin-bottom: 64px;
+  }
 
   img {
     object-position: center;
@@ -484,6 +495,7 @@ h3 {
   @media all and (max-width: 767px) {
     padding-top: 64px;
     padding-bottom: 64px;
+    background-size: 190% auto;
   }
 
   .dwnld {

@@ -1104,6 +1104,13 @@ footer .terms + .terms {
   background: #000 url("../img/top_bg.jpg") no-repeat top center;
 }
 
+@media all and (max-width: 767px) {
+  .main_top {
+    min-height: 0;
+    background-size: 170% auto;
+  }
+}
+
 .main_top h1 {
   font-size: 64px;
   line-height: 96px;
@@ -1117,6 +1124,7 @@ footer .terms + .terms {
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 32px;
+    margin-top: 64px;
   }
 }
 
@@ -1212,6 +1220,13 @@ h2 {
   display: grid;
   grid-gap: 32px;
   grid-template-areas: "a a b b b b" "a a b b b b" "c . b b b b" ". d b b b b";
+}
+
+@media all and (max-width: 767px) {
+  .rounds_grid {
+    grid-gap: 8px;
+    margin-bottom: 64px;
+  }
 }
 
 .rounds_grid img {
@@ -1367,6 +1382,7 @@ h3 {
   .bottom {
     padding-top: 64px;
     padding-bottom: 64px;
+    background-size: 190% auto;
   }
 }
 
