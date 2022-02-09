@@ -1179,6 +1179,28 @@ footer .terms + .terms {
   }
 }
 
+.marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  100% {
+    transform: translate(-80%, 0);
+  }
+}
+
 h2 {
   font-weight: 400;
   font-size: 48px;
@@ -1335,7 +1357,7 @@ h2 {
 .benefits img {
   width: 24px;
   height: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .benefits p {
@@ -1539,11 +1561,12 @@ h3 {
   align-items: center;
 }
 
-.align_center .mob_order_1 {
-  order: 1;
-}
-
-.align_center .mob_order_2 {
-  order: 2;
+@media all and (max-width: 767px) {
+  .align_center .mob_order_1 {
+    order: 1;
+  }
+  .align_center .mob_order_2 {
+    order: 2;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

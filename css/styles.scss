@@ -310,6 +310,28 @@ footer {
   }
 }
 
+.marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  100% {
+    transform: translate(-80%, 0);
+  }
+}
+
 h2 {
   font-weight: 400;
   font-size: 48px;
@@ -453,7 +475,7 @@ h2 {
   img {
     width: 24px;
     height: 24px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
 
   p {
@@ -633,11 +655,13 @@ h3 {
 .align_center {
   align-items: center;
 
-  .mob_order_1 {
-    order: 1;
-  }
+  @media all and (max-width: 767px) {
+    .mob_order_1 {
+      order: 1;
+    }
 
-  .mob_order_2 {
-    order: 2;
+    .mob_order_2 {
+      order: 2;
+    }
   }
 }
