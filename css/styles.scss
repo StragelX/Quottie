@@ -1,6 +1,9 @@
 @import "basic.scss";
 @import "grid";
 
+@import "owl.carousel.scss";
+@import "owl.theme.default.scss";
+
 .df {
   display: flex;
   align-items: center;
@@ -452,7 +455,7 @@ h2 {
       justify-content: space-between;
     }
 
-    .text {
+    text {
       font-size: 24px;
       line-height: 32px;
       flex: 1 1 auto;
@@ -463,6 +466,45 @@ h2 {
       color: #fed778;
       font-size: 16px;
       line-height: 24px;
+    }
+  }
+
+  .feedback_mobile {
+    .text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 32px;
+    }
+
+    .name {
+      color: #fed778;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .owl-dots {
+      display: flex;
+      grid-gap: 16px;
+      margin-top: 32px;
+
+      .owl-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 1;
+        transition: opacity 180ms;
+
+        span {
+          display: none;
+        }
+
+        &.active {
+          opacity: 0.16;
+          transition: opacity 180ms;
+        }
+      }
     }
   }
 }
