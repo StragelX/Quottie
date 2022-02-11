@@ -339,7 +339,7 @@ footer {
     transform: translate(0%, 0);
   }
   100% {
-    transform: translate(-100%, 0);
+    transform: translate(-80%, 0);
   }
 }
 
@@ -420,7 +420,7 @@ h2 {
     height: 750px;
     width: 750px;
 
-    @media all and (max-width: 1000px) {
+    @media all and (max-width: 1025px) {
       width: auto;
       height: auto;
     }
@@ -455,7 +455,7 @@ h2 {
       justify-content: space-between;
     }
 
-    text {
+    .text {
       font-size: 24px;
       line-height: 32px;
       flex: 1 1 auto;

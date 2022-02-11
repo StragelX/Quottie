@@ -1501,7 +1501,7 @@ footer .terms + .terms {
     transform: translate(0%, 0);
   }
   100% {
-    transform: translate(-100%, 0);
+    transform: translate(-80%, 0);
   }
 }
 
@@ -1594,7 +1594,7 @@ h2 {
   width: 750px;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1025px) {
   .rounds_grid .big {
     width: auto;
     height: auto;
@@ -1631,7 +1631,7 @@ h2 {
   justify-content: space-between;
 }
 
-.motivation .feedback_desctop text {
+.motivation .feedback_desctop .text {
   font-size: 24px;
   line-height: 32px;
   flex: 1 1 auto;
