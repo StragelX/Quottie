@@ -1590,9 +1590,9 @@ footer .terms + .terms {
   background: #000 url("../img/top_bg.jpg") no-repeat top center;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 1000px) {
   .main_top {
-    margin-bottom: 64px;
+    margin-bottom: 0;
     min-height: 0;
     background-size: 170% auto;
   }
