@@ -1586,12 +1586,13 @@ footer .terms + .terms {
 }
 
 .main_top {
-  min-height: 715px;
+  margin-bottom: 96px;
   background: #000 url("../img/top_bg.jpg") no-repeat top center;
 }
 
 @media all and (max-width: 767px) {
   .main_top {
+    margin-bottom: 64px;
     min-height: 0;
     background-size: 170% auto;
   }
@@ -1730,7 +1731,7 @@ h2 {
   padding-top: 96px;
 }
 
-@media all and (max-width: 1025px) {
+@media all and (max-width: 767px) {
   .customize {
     padding-top: 32px;
   }
@@ -1757,7 +1758,7 @@ h2 {
 
 @media all and (max-width: 1000px) {
   .customize h2 {
-    margin-bottom: 96px;
+    margin-bottom: 32px;
   }
 }
 
@@ -1768,6 +1769,9 @@ h2 {
 }
 
 .rounds_grid {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin-bottom: 96px;
   display: -ms-grid;
   display: grid;
@@ -2032,12 +2036,6 @@ h3 {
 .terms_wrap {
   padding-top: 96px;
   padding-bottom: 96px;
-}
-
-@media all and (max-width: 1000px) {
-  .terms_wrap {
-    padding-bottom: 64px;
-  }
 }
 
 @media all and (max-width: 767px) {

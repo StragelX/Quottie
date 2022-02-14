@@ -358,7 +358,7 @@ h2 {
 .customize {
   padding-top: 96px;
 
-  @media all and (max-width: 767px) {
+  @media all and (max-width: 1025px) {
     padding-top: 32px;
   }
 
@@ -379,7 +379,7 @@ h2 {
 
   h2 {
     @media all and (max-width: 1000px) {
-      margin-bottom: 32px;
+      margin-bottom: 96px;
     }
 
     @media all and (max-width: 767px) {
@@ -604,6 +604,10 @@ h3 {
 .terms_wrap {
   padding-top: 96px;
   padding-bottom: 96px;
+
+  @media all and (max-width: 1000px) {
+    padding-bottom: 64px;
+  }
 
   @media all and (max-width: 767px) {
     padding-top: 64px;
