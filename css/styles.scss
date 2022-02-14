@@ -274,7 +274,7 @@ footer {
     @media all and (max-width: 767px) {
       font-size: 32px;
       line-height: 48px;
-      margin-bottom: 32px;
+      margin-bottom: 16px;
       margin-top: 64px;
     }
   }
@@ -520,6 +520,10 @@ h2 {
 
   h2 {
     margin-bottom: 32px;
+
+    @media all and (max-width: 767px) {
+      margin-bottom: 16px;
+    }
   }
 
   .text {
