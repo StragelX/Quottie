@@ -357,8 +357,8 @@ h2 {
 .customize {
   padding-top: 96px;
 
-  @media all and (max-width: 1025px) {
-    padding-top: 32px;
+  @media all and (max-width: 767px) {
+    padding-top: 64px;
   }
 
   .text {
@@ -627,7 +627,7 @@ h3 {
 
     @media all and (max-width: 767px) {
       font-size: 16px;
-      margin-bottom: 64px;
+      margin-bottom: 32px;
     }
   }
 
@@ -655,10 +655,7 @@ h3 {
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-
-    &:not(:last-child) {
-      margin-bottom: 32px;
-    }
+    margin-bottom: 32px;
 
     @media all and (max-width: 767px) {
       font-size: 16px;
@@ -692,6 +689,10 @@ h3 {
     text-align: left;
     width: 100%;
     padding-left: 0;
+
+    @media all and (max-width: 1000px) {
+      text-align: center;
+    }
 
     @media all and (max-width: 767px) {
       font-size: 24px;

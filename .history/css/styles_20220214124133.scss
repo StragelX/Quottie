@@ -655,10 +655,7 @@ h3 {
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-
-    &:not(:last-child) {
-      margin-bottom: 32px;
-    }
+    margin-bottom: 32px;
 
     @media all and (max-width: 767px) {
       font-size: 16px;
