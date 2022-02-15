@@ -37,6 +37,7 @@ body {
 }
 
 .dwnld {
+  display: block;
   width: fit-content;
   color: #000;
   font-size: 16px;
@@ -49,7 +50,6 @@ body {
 
   @media all and (max-width: 768px) {
     width: 100%;
-    display: block;
     text-align: center;
   }
 
