@@ -359,7 +359,7 @@ h2 {
   padding-top: 96px;
 
   @media all and (max-width: 767px) {
-    padding-top: 32px;
+    padding-top: 64px;
   }
 
   .text {
@@ -385,6 +385,14 @@ h2 {
     @media all and (max-width: 767px) {
       margin-bottom: 16px;
     }
+  }
+}
+
+.rounds {
+  margin-bottom: 92px;
+
+  @media all and (max-width: 767px) {
+    margin-bottom: 60px;
   }
 }
 
@@ -442,7 +450,7 @@ h2 {
     margin-bottom: 96px;
 
     @media all and (max-width: 767px) {
-      margin-bottom: 32px;
+      margin-bottom: 64px;
     }
   }
 
