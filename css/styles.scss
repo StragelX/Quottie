@@ -396,55 +396,6 @@ h2 {
   }
 }
 
-.rounds_grid {
-  align-items: flex-end;
-  margin-bottom: 96px;
-  display: grid;
-  grid-gap: 32px;
-  grid-template-areas:
-    "a a b b b b"
-    "a a b b b b"
-    "c . b b b b"
-    ". d b b b b";
-
-  @media all and (max-width: 1000px) {
-    margin-bottom: 95.43px;
-  }
-
-  @media all and (max-width: 767px) {
-    grid-gap: 8px;
-    margin-bottom: 64px;
-  }
-
-  img {
-    object-position: center;
-    object-fit: cover;
-  }
-
-  .middle {
-    grid-area: a;
-  }
-
-  .big {
-    grid-area: b;
-    height: 750px;
-    width: 750px;
-
-    @media all and (max-width: 1025px) {
-      width: auto;
-      height: auto;
-    }
-  }
-
-  .small_1 {
-    grid-area: c;
-  }
-
-  .small_2 {
-    grid-area: d;
-  }
-}
-
 .motivation {
   h2 {
     margin-bottom: 96px;

@@ -1570,57 +1570,6 @@ h2 {
   }
 }
 
-.rounds_grid {
-  align-items: flex-end;
-  margin-bottom: 96px;
-  display: grid;
-  grid-gap: 32px;
-  grid-template-areas: "a a b b b b" "a a b b b b" "c . b b b b" ". d b b b b";
-}
-
-@media all and (max-width: 1000px) {
-  .rounds_grid {
-    margin-bottom: 95.43px;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .rounds_grid {
-    grid-gap: 8px;
-    margin-bottom: 64px;
-  }
-}
-
-.rounds_grid img {
-  object-position: center;
-  object-fit: cover;
-}
-
-.rounds_grid .middle {
-  grid-area: a;
-}
-
-.rounds_grid .big {
-  grid-area: b;
-  height: 750px;
-  width: 750px;
-}
-
-@media all and (max-width: 1025px) {
-  .rounds_grid .big {
-    width: auto;
-    height: auto;
-  }
-}
-
-.rounds_grid .small_1 {
-  grid-area: c;
-}
-
-.rounds_grid .small_2 {
-  grid-area: d;
-}
-
 .motivation h2 {
   margin-bottom: 96px;
 }
