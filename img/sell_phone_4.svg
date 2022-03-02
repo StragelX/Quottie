@@ -14,7 +14,7 @@
             <stop stop-color="#000000" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Screen-01" transform="translate(-150.000000, -4164.000000)">
             <g id="Section" transform="translate(0.000000, 4068.000000)">
                 <g id="Ill-05" transform="translate(150.000000, 96.000000)">
@@ -23,7 +23,7 @@
                         <mask id="mask-2" fill="white">
                             <use xlink:href="#path-1"></use>
                         </mask>
-                        <use id="Bg" fill="#FFFFFF" opacity="0" xlink:href="#path-1"></use>
+                        <use id="Bg" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"></use>
                         <g mask="url(#mask-2)">
                             <g transform="translate(0.000000, -145.314721)">
                                 <g id="03---iPhone-12-Pro-Clay-Front">
