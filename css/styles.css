@@ -1413,7 +1413,7 @@ footer .terms + .terms {
   font-size: 64px;
   line-height: 96px;
   margin-bottom: 32px;
-  margin-top: 140px;
+  margin-top: 141px;
   font-weight: 400;
 }
 
@@ -1533,13 +1533,6 @@ h2 {
   line-height: 24px;
   font-size: 16px;
   margin-bottom: 96px;
-  padding-left: 40px;
-}
-
-@media all and (max-width: 1000px) {
-  .customize .text {
-    padding-left: 0;
-  }
 }
 
 @media all and (max-width: 767px) {
@@ -1676,7 +1669,7 @@ h2 {
 
 .benefits {
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 32px;
   grid-template-columns: repeat(2, minmax(100px, 245px));
 }
 
