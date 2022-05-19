@@ -1351,7 +1351,6 @@ footer .terms + .terms {
 @media all and (max-width: 767px) {
   footer .terms + .terms {
     margin-top: 8px;
-    margin-bottom: 8px;
   }
 }
 
